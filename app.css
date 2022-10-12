@@ -1,0 +1,424 @@
+
+
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+    display: flex; 
+    flex-direction: column;
+}
+
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center;   */
+    margin-top: 24px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+/******************** Nav Section Design ********************/
+.NavCustom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; 
+/*     
+    background-color: bisque;
+    border: 1px solid black; */
+
+    z-index: 2;
+}
+
+.ButtonCustom{
+    height: 56px;
+    width: 167px;   
+    border-radius: 28px;
+    border: none;
+
+    background: #13183F;
+    border-radius: 28px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #FFFFFF;   
+}/******************** Nav Section Design End ********************/
+
+
+
+
+
+/******************** Hero Section Design ********************/
+.HeroContainer{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    height: auto;
+}
+
+.HeroContent{ 
+    /* background-color: lightpink;
+    border: 1px solid black;
+    box-sizing: border-box; */
+
+    max-width: 457px;
+    min-width: 300px;
+    height: auto;
+    
+    margin-top: 185px;
+    margin-bottom: 340px;
+    margin-right: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroImage{   
+    /* background-color: lightgreen;
+    border: 1px solid black;
+    box-sizing: border-box; */
+
+    min-width: 800px;
+    margin-top: -186px;
+    margin-right: -420px;
+}
+
+.girlimagesmall{
+    display: none;
+}
+
+.HeroContent h1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+
+    color: #13183F;
+
+    margin-bottom: 29px;
+}
+
+.HeroContent p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #83869A;
+
+    margin-bottom: 40px;
+}
+
+.HeroContent button{
+    height: 63px;
+    width: 167px;    
+    border-radius: 31.5px;
+    border: none;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+   
+    color: #FFFFFF;
+}/******************** Hero Section Design End********************/
+
+
+
+
+/******************** Six cards Design ********************/
+.cardcontaineralignment{
+    display: flex;
+    justify-content: center;
+}
+
+.cardcontainer{ 
+    margin-left: 15%;
+    margin-right: 15%;   
+    width: auto;  
+    height:auto;
+
+    /* background-color: aqua;
+    border: 1px solid black; */
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{   
+    flex-basis: 350px;
+    height: auto;
+    flex-grow: 1;
+
+    /* background-color: lightcoral;
+    border: 1px solid black; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right:8px;
+    margin-left:8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+/*     
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px; */
+}
+
+.cardicon{
+    margin-top: -28px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+}
+
+.item1{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+}
+
+.item1 p{
+    margin-top:56px;
+    margin-left:32px;
+    margin-bottom:56px;
+    width: 80%;
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+
+.cardheading{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #13183F;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.cardparagraph{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #83869A;
+    margin-left: 32px;
+    margin-right: 32px;
+    
+    /* margin-bottom: 24px; */
+}
+
+.cardbutton{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #F74780;
+    margin-left: 32px;
+    margin-bottom: 32px;
+
+    border: none;
+    background: none;
+}/******************** Six cards Design End ********************/
+
+
+
+
+
+
+/********************Footer start ********************/
+.FooterCustom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; 
+/*     
+    background-color: bisque;
+    border: 1px solid black; */
+
+    z-index: 2;
+    background-color: #13183F;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.FooterButton{
+    height: 56px;
+    width: 167px;   
+    border-radius: 28px;
+    border: none;
+
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #FFFFFF;   
+}/********************Footer End ********************/
+
+
+
+
+
+
+
+/********************Hover states start ********************/
+.ButtonCustom:hover{
+    background: #666CA3;
+    border-radius: 28px;
+}
+
+.HeroContainer button:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.cardbutton:hover{
+    color: #FFA7C3;
+}
+
+.FooterButton:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}/********************Hover states End ********************/
+
+
+
+
+
+
+/************************************************************ Media Queries Start ************************************************************/
+/************************************************************ Media Queries Start ************************************************************/
+/************************************************************ Media Queries Start ************************************************************/
+@media (max-width: 1200px){
+    .girlimage{
+        width: 650px;
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+
+    .HeroContent{
+        margin-bottom: 150px ;
+    }
+}
+
+@media (max-width:768px){
+    .MainContainer{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .cardcontainer{ 
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .FooterCustom{ 
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    
+
+    .girlimage{
+        width: 450px;
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+
+    .HeroContent h1{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+      
+        color: #13183F;
+    }
+    
+    .HeroContent p{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+
+        color: #83869A;
+    }
+
+    .HeroContent{
+        margin-bottom: 150px ;
+    }
+}
+
+@media (max-width:576px){
+    .MainContainer{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .cardcontainer{ 
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .FooterCustom{ 
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .HeroContainer{
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;    
+    }
+
+    .girlimage{
+        display: none;
+    }
+
+    .girlimagesmall{
+        display: block;
+        margin-top: 46px;
+        margin-bottom: 46px;      
+    }
+
+    .HeroContent{     
+        margin-top: 56px;
+        margin-bottom: 200px;   
+    }
+}
